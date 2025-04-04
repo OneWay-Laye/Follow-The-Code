@@ -1,0 +1,73 @@
+/* This is the standard for everything */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* This will call items by IDs */
+#Nav {
+    background: black;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+
+    ul {
+        color: white;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+
+        a {
+            text-decoration: none;
+            color: white;
+    }
+    }
+}
+
+#Hero {
+    color: #2CFF05;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/assets/Follow_The_Code_Header.jpeg);
+    background-size: cover;
+
+    h1 {
+        
+    };
+
+    p {
+        
+    };
+
+    a{ 
+        color: black;
+   
+        button {
+            margin: 20px;
+            padding: 10px;
+    
+        }
+    }
+    
+}
+
+#Social{
+    display: flex;
+    justify-content: space-around;
+
+    img{
+        height: 30px;
+        width: 30px;
+        
+    }
+
+}
